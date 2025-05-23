@@ -67,7 +67,7 @@ struct StartConversationScreen: View {
                             .padding(.leading, 38 + Values.smallSpacing)
                             .padding(.trailing, -Values.largeSpacing)
                         
-                        NewConversationCell(
+                        /*NewConversationCell(
                             image: "Globe", // stringlint:ignore
                             title: "communityJoin".localized()
                         ) {
@@ -84,6 +84,7 @@ struct StartConversationScreen: View {
                         Line(color: .borderSeparator)
                             .padding(.leading, 38 + Values.smallSpacing)
                             .padding(.trailing, -Values.largeSpacing)
+                            */
                         
                         NewConversationCell(
                             image: "icon_invite", // stringlint:ignore

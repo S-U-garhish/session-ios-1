@@ -9,6 +9,7 @@ import SessionUIKit
 import SessionMessagingKit
 import SessionUtilitiesKit
 import SignalUtilitiesKit
+import ScreenshotPreventing
 
 final class ConversationVC: BaseVC, LibSessionRespondingViewController, ConversationSearchControllerDelegate, UITableViewDataSource, UITableViewDelegate {
     private static let loadingHeaderHeight: CGFloat = 40
@@ -135,6 +136,8 @@ final class ConversationVC: BaseVC, LibSessionRespondingViewController, Conversa
         
         return result
     }()
+
+    let container = ScreenshotPreventingView()
 
     lazy var tableView: InsetLockableTableView = {
         let result: InsetLockableTableView = InsetLockableTableView()
@@ -432,6 +435,8 @@ final class ConversationVC: BaseVC, LibSessionRespondingViewController, Conversa
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //container.setup(contentView: view)
+        
         navigationItem.titleView = titleView
         
         // Note: We need to update the nav bar buttons here (with invalid data) because if we don't the
@@ -540,6 +545,8 @@ final class ConversationVC: BaseVC, LibSessionRespondingViewController, Conversa
         // conversation settings then we don't need to worry about the conversation getting marked as
         // when when the user returns back through this view controller
         self.viewModel.markAsRead(target: .thread, timestampMs: nil)
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

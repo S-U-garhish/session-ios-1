@@ -6,7 +6,8 @@
 	<string>production</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.loki-project.loki-messenger</string>
+		<string>group.garhish.ZILLAF</string>
+		<string>group.chat.zillaf</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>

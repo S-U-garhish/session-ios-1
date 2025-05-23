@@ -2,13 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.apple.developer.usernotifications.filtering</key>
-	<true/>
 	<key>aps-environment</key>
 	<string>development</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.loki-project.loki-messenger</string>
+		<string>group.chat.zillaf</string>
+		<string>group.garhish.ZILLAF</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>

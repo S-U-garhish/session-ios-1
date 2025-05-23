@@ -17,7 +17,7 @@ public enum ThemeManager {
     
     private static var _hasLoadedTheme: Bool = false
     private static var _theme: Theme = .classicDark                 // Default to `classicDark`
-    private static var _primaryColor: Theme.PrimaryColor = .green   // Default to `green`
+    private static var _primaryColor: Theme.PrimaryColor = .orange   // Default to `orange`
     private static var _matchSystemNightModeSetting: Bool = false   // Default to `false`
     
     public static var hasLoadedTheme: Bool { _hasLoadedTheme }

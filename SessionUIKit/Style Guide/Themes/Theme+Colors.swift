@@ -7,12 +7,12 @@ import SwiftUI
 
 public extension Theme {
     enum PrimaryColor: String, Codable, CaseIterable {
+        case orange
         case green
         case blue
         case yellow
         case pink
         case purple
-        case orange
         case red
         
         internal init?(color: UIColor?) {

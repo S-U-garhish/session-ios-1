@@ -324,7 +324,7 @@ enum ScriptAction: String {
                         let stringsData: Data = try? JSONSerialization.data(withJSONObject: json, options: [ .fragmentsAllowed ]),
                         let stringsJSONString: String = String(data: stringsData, encoding: .utf8)
                     {
-                        let updatedStringsJSONString = stringsJSONString.replacingOccurrences(of: "{app_name}", with: "Session")
+                        let updatedStringsJSONString = stringsJSONString.replacingOccurrences(of: "{app_name}", with: "ZILLAF")
                         
                         if 
                             let updatedStringsData: Data = updatedStringsJSONString.data(using: .utf8),

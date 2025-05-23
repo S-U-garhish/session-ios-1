@@ -1,5 +1,5 @@
 {
-  "originHash" : "3976430cfdaea7445596ad6123334158bdc83e4997da535d15a15afc3c7aa091",
+  "originHash" : "c0b4d768fb23091cdf2a34fce667c25799e0042ec0ccc882e1abee151d25c795",
   "pins" : [
     {
       "identity" : "cocoalumberjack",
@@ -89,6 +89,24 @@
       "state" : {
         "revision" : "26529ff2209c40ae50fd642b031f930d9d68ea02",
         "version" : "7.5.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "5dd1907d64f0d36f158f61a466bab75067224893",
+        "version" : "6.9.0"
+      }
+    },
+    {
+      "identity" : "screenshotpreventing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yoxisem544/ScreenshotPreventing.git",
+      "state" : {
+        "revision" : "10d868c738ec1debba944388c5941dac957e9a8d",
+        "version" : "1.4.0"
       }
     },
     {

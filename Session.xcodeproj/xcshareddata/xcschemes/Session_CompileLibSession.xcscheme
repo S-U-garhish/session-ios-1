@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D221A088169C9E5E00537ABF"
-               BuildableName = "Session.app"
+               BuildableName = "ZILLAF.app"
                BlueprintName = "Session"
                ReferencedContainer = "container:Session.xcodeproj">
             </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D221A088169C9E5E00537ABF"
-            BuildableName = "Session.app"
+            BuildableName = "ZILLAF.app"
             BlueprintName = "Session"
             ReferencedContainer = "container:Session.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D221A088169C9E5E00537ABF"
-            BuildableName = "Session.app"
+            BuildableName = "ZILLAF.app"
             BlueprintName = "Session"
             ReferencedContainer = "container:Session.xcodeproj">
          </BuildableReference>
