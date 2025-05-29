@@ -151,7 +151,7 @@ struct EnterAccountIdScreen: View {
                 )
             ) {
                 ZStack {
-                    (Text("messageNewDescriptionMobile".localized()) + Text(Image(systemName: "questionmark.circle")))
+                    (Text("messageNewDescriptionMobile".localized()))
                         .font(.system(size: Values.verySmallFontSize))
                         .foregroundColor(themeColor: .textSecondary)
                         .multilineTextAlignment(.center)
@@ -164,11 +164,11 @@ struct EnterAccountIdScreen: View {
                 )
                 .padding(.horizontal, Values.smallSpacing)
                 .padding(.top, Values.smallSpacing)
-                .onTapGesture {
+                /*.onTapGesture {
                     if let url: URL = URL(string: "https://sessionapp.zendesk.com/hc/en-us/articles/4439132747033-How-do-Session-ID-usernames-work-") {
                         UIApplication.shared.open(url)
                     }
-                }
+                }*/
             }
             
             Spacer()

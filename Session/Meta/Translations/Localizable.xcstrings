@@ -76434,55 +76434,55 @@
         "af" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jou IP is sigbaar vir jou oproepmaat en 'n Oxen Foundation-bediener terwyl beta-oproepe gebruik word."
+            "value" : "Jou IP is sigbaar vir jou oproepmaat en 'n bediener terwyl beta-oproepe gebruik word."
           }
         },
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "عنوان IP الخاص بك مرئي لشريك الاتصال وخادم Oxen Foundation أثناء استخدام المكالمات التجريبية."
+            "value" : "عنوان IP الخاص بك مرئي لشريك الاتصال وخادم أثناء استخدام المكالمات التجريبية."
           }
         },
         "az" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beta zənglərini istifadə edərkən IP ünvanınız zəng tərəfdaşınıza və Oxen Foundation serverinə görünür."
+            "value" : "Beta zənglərini istifadə edərkən IP ünvanınız zəng tərəfdaşınıza və  serverinə görünür."
           }
         },
         "bal" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ما گپ درخواست قبول کردی آپ کہ آئیں طرفه IP پدنی Oxen Foundation کہ سرورے ہ مغامیگیا."
+            "value" : "ما گپ درخواست قبول کردی آپ کہ آئیں طرفه IP پدنی  کہ سرورے ہ مغامیگیا."
           }
         },
         "be" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваш IP будзе бачныя вашаму партнёру па званках і серверу Oxen Foundation падчас выкарыстання бэта-званкоў."
+            "value" : "Ваш IP будзе бачныя вашаму партнёру па званках і серверу  падчас выкарыстання бэта-званкоў."
           }
         },
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вашият IP е видим за вашият партньор по време нослужване на beta обаждания и Oxen Foundation сървър."
+            "value" : "Вашият IP е видим за вашият партньор по време нослужване на beta обаждания и  сървър."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "বেটা কলগুলি ব্যবহার করার সময় আপনার আইপি আপনার কল পার্টনার এবং একটি Oxen Foundation সার্ভারের কাছে দৃশ্যমান হবে।"
+            "value" : "বেটা কলগুলি ব্যবহার করার সময় আপনার আইপি আপনার কল পার্টনার এবং একটি  সার্ভারের কাছে দৃশ্যমান হবে।"
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La vostra IP és visible a la vostra parella de trucada i a un servidor de Oxen Foundation mentre utilitzeu trucades beta."
+            "value" : "La vostra IP és visible a la vostra parella de trucada i a un servidor de  mentre utilitzeu trucades beta."
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaše IP adresa je při používání beta hovorů viditelná pro vašeho volacího partnera a server Oxen Foundation."
+            "value" : "Vaše IP adresa je při používání beta hovorů viditelná pro vašeho volacího partnera a server ."
           }
         },
         "cy" : {
@@ -76494,19 +76494,19 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Din IP synlig for din opkaldspartner og en Oxen Foundation-server, mens du bruger betaopkald."
+            "value" : "Din IP synlig for din opkaldspartner og en -server, mens du bruger betaopkald."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deine IP ist für deinen Gesprächspartner und einen Oxen Foundation Server sichtbar, während du Beta-Anrufe nutzt."
+            "value" : "Deine IP ist für deinen Gesprächspartner und einen  Server sichtbar, während du Beta-Anrufe nutzt."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Η διεύθυνση IP σας είναι ορατή στον συνομιλητή σας και σε έναν διακομιστή του Oxen Foundation κατά τη χρήση κλήσεων beta."
+            "value" : "Η διεύθυνση IP σας είναι ορατή στον συνομιλητή σας και σε έναν διακομιστή του  κατά τη χρήση κλήσεων beta."
           }
         },
         "en" : {
@@ -76518,67 +76518,67 @@
         "eo" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Via IP-adreso estas videbla al via vokopartnero kaj al servilo de Oxen Foundation dum vi uzas betajn vokojn."
+            "value" : "Via IP-adreso estas videbla al via vokopartnero kaj al servilo de  dum vi uzas betajn vokojn."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tu IP es visible para tu compañero de llamada y un servidor de la Oxen Foundation mientras usas llamadas beta."
+            "value" : "Tu IP es visible para tu compañero de llamada y un servidor de la  mientras usas llamadas beta."
           }
         },
         "es-ES" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tu IP es visible para tu socio de llamada y un servidor de Oxen Foundation mientras usas las llamadas beta."
+            "value" : "Tu IP es visible para tu socio de llamada y un servidor de  mientras usas las llamadas beta."
           }
         },
         "et" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Teie IP on nähtav teie kõnepartnerile ja Oxen Foundation serverile beetakõnede ajal."
+            "value" : "Teie IP on nähtav teie kõnepartnerile ja  serverile beetakõnede ajal."
           }
         },
         "eu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zure IPa ikusgai egongo da zure dei-bikotekidearentzako eta Oxen Foundation zerbitzari batentzako, beta-deiak egiten ari bazara."
+            "value" : "Zure IPa ikusgai egongo da zure dei-bikotekidearentzako eta  zerbitzari batentzako, beta-deiak egiten ari bazara."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "آدرس IP شما برای مخاطب تماس شما و همچنین سرور Oxen Foundation در هنگام استفاده از تماس آزمایشی مشخص خواهد بود."
+            "value" : "آدرس IP شما برای مخاطب تماس شما و همچنین سرور  در هنگام استفاده از تماس آزمایشی مشخص خواهد بود."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP-osoitteesi on näkyvissä puhelun aikana vastaanottajalle ja Oxen Foundation palvelimelle, kun käytät beta-puheluita."
+            "value" : "IP-osoitteesi on näkyvissä puhelun aikana vastaanottajalle ja  palvelimelle, kun käytät beta-puheluita."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ang iyong IP ay nakikita ng iyong kasamahan sa tawag at isang server ng Oxen Foundation habang gumagamit ng beta calls."
+            "value" : "Ang iyong IP ay nakikita ng iyong kasamahan sa tawag at isang server ng  habang gumagamit ng beta calls."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Votre adresse IP est visible par votre interlocuteur et un serveur d'Oxen Foundation pendant que vous utilisez des appels beta."
+            "value" : "Votre adresse IP est visible par votre interlocuteur et un serveur d' pendant que vous utilisez des appels beta."
           }
         },
         "gl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O teu IP é visible para o teu compañeire de chamada e un servidor da Oxen Foundation mentres utilizas chamadas beta."
+            "value" : "O teu IP é visible para o teu compañeire de chamada e un servidor da  mentres utilizas chamadas beta."
           }
         },
         "ha" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP ɗinku yana bayyane ga abokin kiran ku da sabar Oxen Foundation yayin amfani da ƙiran beta."
+            "value" : "IP ɗinku yana bayyane ga abokin kiran ku da sabar  yayin amfani da ƙiran beta."
           }
         },
         "he" : {
@@ -76590,73 +76590,73 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "अपने खाते में एन्क्रिप्टेड संदेश भेजते समय आपका IP आपके कॉल पार्टनर और Oxen Foundation सर्वर को दिखाई देगा।"
+            "value" : "अपने खाते में एन्क्रिप्टेड संदेश भेजते समय आपका IP आपके कॉल पार्टनर और  सर्वर को दिखाई देगा।"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaš IP je vidljiv vašem sugovorniku i poslužitelju Oxen Foundation dok koristite beta pozive."
+            "value" : "Vaš IP je vidljiv vašem sugovorniku i poslužitelju  dok koristite beta pozive."
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Az IP címed látható a hívópartner és egy Oxen Foundation szerver számára a béta hívások használata közben."
+            "value" : "Az IP címed látható a hívópartner és egy  szerver számára a béta hívások használata közben."
           }
         },
         "hy-AM" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ձեր IP հասցեն տեսանելի է ձեր զանգի գործընկերոջը և մի 'Oxen Foundation' սերվերին ծիծլած օգտագործման ժամանակ։"
+            "value" : "Ձեր IP հասցեն տեսանելի է ձեր զանգի գործընկերոջը և մի '' սերվերին ծիծլած օգտագործման ժամանակ։"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP Anda terlihat oleh mitra panggilan Anda dan server Oxen Foundation saat menggunakan panggilan beta."
+            "value" : "IP Anda terlihat oleh mitra panggilan Anda dan server  saat menggunakan panggilan beta."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il tuo IP è visibile all'utente che stai chiamando e a un server di Oxen Foundation durante l'utilizzo delle chiamate beta."
+            "value" : "Il tuo IP è visibile all'utente che stai chiamando e a un server di  durante l'utilizzo delle chiamate beta."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "音声通話とビデオ通話の使用中、あなたのIPはあなたの通話相手とOxen Foundationサーバーに表示されます。"
+            "value" : "音声通話とビデオ通話の使用中、あなたのIPはあなたの通話相手とサーバーに表示されます。"
           }
         },
         "ka" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "თქვენი IP გააშკარავდება თქვენი ზარის პარტნიორს და Oxen Foundation-ის სერვერს, ბეტა ზარების გამოყენებისას."
+            "value" : "თქვენი IP გააშკარავდება თქვენი ზარის პარტნიორს და -ის სერვერს, ბეტა ზარების გამოყენებისას."
           }
         },
         "km" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP អ្នក​ត្រូវបាន​លេចឮ​ច្បាស់នៅពេល​អ្នក​ប្រើកិច្ចប្រជុំ Beta ក្នុង Oxen Foundation។"
+            "value" : "IP អ្នក​ត្រូវបាន​លេចឮ​ច្បាស់នៅពេល​អ្នក​ប្រើកិច្ចប្រជុំ Beta ក្នុង ។"
           }
         },
         "kn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ಬೇಟ ಕಾಲ್ಲನ್ನು ಬಳಸಿದಾಗ ನಿಮ್ಮ IP ಕರೆ ಸಹವಾಸಿಗೂ ಮತ್ತು Oxen Foundation ಸರ್ವರ್‌ಗೆ ಗೋಚರುತ್ತದೆ."
+            "value" : "ಬೇಟ ಕಾಲ್ಲನ್ನು ಬಳಸಿದಾಗ ನಿಮ್ಮ IP ಕರೆ ಸಹವಾಸಿಗೂ ಮತ್ತು  ಸರ್ವರ್‌ಗೆ ಗೋಚರುತ್ತದೆ."
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "베타 통화를 사용하는 동안 IP가 호출 파트너와 Oxen Foundation 서버에 보입니다."
+            "value" : "베타 통화를 사용하는 동안 IP가 호출 파트너와  서버에 보입니다."
           }
         },
         "ku" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "پته‌ی IP ی تۆ بۆ شەریکەکەی تیپە و سێروێری Oxen Foundation پشت بە پشت ڕەنگە بونی بوو بێت کاتێک بەکارهێنانی بەتاکوڵ بوون بوزیەکان."
+            "value" : "پته‌ی IP ی تۆ بۆ شەریکەکەی تیپە و سێروێری  پشت بە پشت ڕەنگە بونی بوو بێت کاتێک بەکارهێنانی بەتاکوڵ بوون بوزیەکان."
           }
         },
         "ku-TR" : {
@@ -76668,55 +76668,55 @@
         "lg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP yo efulugettaka mu mateeka ne server ya Oxen Foundation nga okozeza omitting ekikugya ekiriotto."
+            "value" : "IP yo efulugettaka mu mateeka ne server ya  nga okozeza omitting ekikugya ekiriotto."
           }
         },
         "lt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Naudojant beta skambučius, jūsų IP adresas matomas jūsų pašnekovui ir Oxen Foundation serveriui."
+            "value" : "Naudojant beta skambučius, jūsų IP adresas matomas jūsų pašnekovui ir  serveriui."
           }
         },
         "lv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Izmantojot beta zvanus, jūsu IP ir redzams jūsu zvana partnerim un Oxen Foundation serverim."
+            "value" : "Izmantojot beta zvanus, jūsu IP ir redzams jūsu zvana partnerim un  serverim."
           }
         },
         "mk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вашето IP е видливо за вашиот партнер за повик и серверот на Oxen Foundation додека користите бета повици."
+            "value" : "Вашето IP е видливо за вашиот партнер за повик и серверот на  додека користите бета повици."
           }
         },
         "mn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Таны IP хаягийг ярианы хамтрагч болон Oxen Foundation сервер харагдана."
+            "value" : "Таны IP хаягийг ярианы хамтрагч болон  сервер харагдана."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alamat IP anda boleh dilihat oleh rakan panggilan anda dan pelayan Oxen Foundation semasa menggunakan panggilan beta."
+            "value" : "Alamat IP anda boleh dilihat oleh rakan panggilan anda dan pelayan  semasa menggunakan panggilan beta."
           }
         },
         "my" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "သင့် IP ကို ဖုန်းခေါ်စဉ်တွင် သင်၏ ချိန်းညွှန်းပါတနာများနှင့် Oxen Foundation ဆာဗာကို မြင်ရပါသည်။"
+            "value" : "သင့် IP ကို ဖုန်းခေါ်စဉ်တွင် သင်၏ ချိန်းညွှန်းပါတနာများနှင့်  ဆာဗာကို မြင်ရပါသည်။"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP-adressen din er synlig for samtalepartneren din og en Oxen Foundation-server mens du bruker betasamtaler."
+            "value" : "IP-adressen din er synlig for samtalepartneren din og en -server mens du bruker betasamtaler."
           }
         },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Din IP er synlig for samtalepartneren din og en Oxen Foundation-server mens du bruker beta-samtaler."
+            "value" : "Din IP er synlig for samtalepartneren din og en -server mens du bruker beta-samtaler."
           }
         },
         "ne-NP" : {
@@ -76728,85 +76728,85 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uw IP is zichtbaar voor uw oproep partner en een Oxen Foundation server tijdens het gebruik van bètagesprekken."
+            "value" : "Uw IP is zichtbaar voor uw oproep partner en een  server tijdens het gebruik van bètagesprekken."
           }
         },
         "nn-NO" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP-adressa di er synlig for samtalepartnaren din og ein Oxen Foundation-server mens du bruker beta-samtaler."
+            "value" : "IP-adressa di er synlig for samtalepartnaren din og ein -server mens du bruker beta-samtaler."
           }
         },
         "ny" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP yanu ikuwoneka kwa mnzake wanu ndi seva ya Oxen Foundation mukamagwiritsa ntchito mayitanidwe ozungulira."
+            "value" : "IP yanu ikuwoneka kwa mnzake wanu ndi seva ya  mukamagwiritsa ntchito mayitanidwe ozungulira."
           }
         },
         "pa-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ਤੁਹਾਡੀ ਕਾਲ ਦੇ ਦੌਰਾਨ ਤੁਹਾਡਾ IP ਸਹਿਯੋਗੀ ਅਤੇ ਇਕ Oxen Foundation ਸਰਵਰ ਨੂੰ ਦੇਖਾਈ ਦੇਵੇਗਾ।"
+            "value" : "ਤੁਹਾਡੀ ਕਾਲ ਦੇ ਦੌਰਾਨ ਤੁਹਾਡਾ IP ਸਹਿਯੋਗੀ ਅਤੇ ਇਕ  ਸਰਵਰ ਨੂੰ ਦੇਖਾਈ ਦੇਵੇਗਾ।"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Podczas korzystania z połączeń w wersji beta Twój adres IP jest widoczny dla partnera rozmowy i serwera Oxen Foundation."
+            "value" : "Podczas korzystania z połączeń w wersji beta Twój adres IP jest widoczny dla partnera rozmowy i serwera ."
           }
         },
         "ps" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ستاسو IP ستاسو د زنګ ملګري او یو Oxen Foundation سرور ته ښکاره کیږي کله چې بیتا زنګونه کاروئ."
+            "value" : "ستاسو IP ستاسو د زنګ ملګري او یو  سرور ته ښکاره کیږي کله چې بیتا زنګونه کاروئ."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seu IP estará visível para seu parceiro de chamada e para um servidor da Oxen Foundation enquanto usa chamadas beta."
+            "value" : "Seu IP estará visível para seu parceiro de chamada e para um servidor da  enquanto usa chamadas beta."
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O seu IP está visível para seu parceiro de chamada e para um servidor Oxen Foundation enquanto usa chamadas beta."
+            "value" : "O seu IP está visível para seu parceiro de chamada e para um servidor  enquanto usa chamadas beta."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP-ul dumneavoastră este vizibil către partenerul de apel și către un server al Oxen Foundation atunci când utilizați apeluri beta."
+            "value" : "IP-ul dumneavoastră este vizibil către partenerul de apel și către un server al  atunci când utilizați apeluri beta."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваш IP виден вашему собеседнику и серверу Oxen Foundation при использовании бета-вызовов."
+            "value" : "Ваш IP виден вашему собеседнику и серверу  при использовании бета-вызовов."
           }
         },
         "sh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tvoj IP je vidljiv tvom partneru na pozivu i serveru Oxen Foundation dok koristiš beta pozive."
+            "value" : "Tvoj IP je vidljiv tvom partneru na pozivu i serveru  dok koristiš beta pozive."
           }
         },
         "si-LK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ඔබගේ IP වැටීමට වයිස් සහ Oxen Foundation සේවාදායකයකු වෙත දැක්වේදීද පරීක්ෂණ ඇමතුම් භාවිතා කිරීමේදී."
+            "value" : "ඔබගේ IP වැටීමට වයිස් සහ  සේවාදායකයකු වෙත දැක්වේදීද පරීක්ෂණ ඇමතුම් භාවිතා කිරීමේදී."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaša IP adresa je viditeľná vášmu volajúcemu partnerovi a serveru Oxen Foundation pri používaní beta hovory."
+            "value" : "Vaša IP adresa je viditeľná vášmu volajúcemu partnerovi a serveru  pri používaní beta hovory."
           }
         },
         "sl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaš IP je viden vašemu partnerskemu klicatelju in strežniku Oxen Foundation med uporabo beta klicev."
+            "value" : "Vaš IP je viden vašemu partnerskemu klicatelju in strežniku  med uporabo beta klicev."
           }
         },
         "sq" : {
@@ -76818,55 +76818,55 @@
         "sr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваша IP адреса је видљива вашем сајговорнику и серверу Oxen Foundation док користите бета позиве."
+            "value" : "Ваша IP адреса је видљива вашем сајговорнику и серверу  док користите бета позиве."
           }
         },
         "sr-Latn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaš IP je vidljiv vašem partneru za poziv i serveru Oxen Foundation dok koristite beta pozive."
+            "value" : "Vaš IP je vidljiv vašem partneru za poziv i serveru  dok koristite beta pozive."
           }
         },
         "sv-SE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Din IP är synlig för din samtalspartner och en Oxen Foundation server när du använder beta-samtal."
+            "value" : "Din IP är synlig för din samtalspartner och en  server när du använder beta-samtal."
           }
         },
         "sw" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP yako inaonekana kwa mshirika wako wa simu na seva ya Oxen Foundation wakati unatumia simu za beta."
+            "value" : "IP yako inaonekana kwa mshirika wako wa simu na seva ya  wakati unatumia simu za beta."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "அழைப்பு பிறையாளர் மற்றும் Oxen Foundation சர்வரில் உங்கள் ஐபி காட்டப்படவும் செய்தி சேவையின்போது."
+            "value" : "அழைப்பு பிறையாளர் மற்றும்  சர்வரில் உங்கள் ஐபி காட்டப்படவும் செய்தி சேவையின்போது."
           }
         },
         "te" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "బీటా కాల్‌లను ఉపయోగిస్తున్నప్పుడు మీ ఐపి మీ కాల్ భాగస్వామికి మరియు ఒక Oxen Foundation సర్వర్‌కు కనిపిస్తుంది."
+            "value" : "బీటా కాల్‌లను ఉపయోగిస్తున్నప్పుడు మీ ఐపి మీ కాల్ భాగస్వామికి మరియు ఒక  సర్వర్‌కు కనిపిస్తుంది."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IP ของคุณจะสามารถมองเห็นได้โดยคู่สายของคุณและเซิร์ฟเวอร์ของ Oxen Foundation ในขณะที่ใช้เบต้าการโทร"
+            "value" : "IP ของคุณจะสามารถมองเห็นได้โดยคู่สายของคุณและเซิร์ฟเวอร์ของ  ในขณะที่ใช้เบต้าการโทร"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deneme aramaları sırasında IP adresiniz arama ortağınıza ve Oxen Foundation sunucusuna görünür olacaktır."
+            "value" : "Deneme aramaları sırasında IP adresiniz arama ortağınıza ve  sunucusuna görünür olacaktır."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваша IP-адреса видима вашому партнеру по дзвінку та серверу Oxen Foundation при використанні бета-дзвінків."
+            "value" : "Ваша IP-адреса видима вашому партнеру по дзвінку та серверу  при використанні бета-дзвінків."
           }
         },
         "ur-IN" : {
@@ -76884,25 +76884,25 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Địa chỉ IP của bạn hiển thị với đối tác cuộc gọi và máy chủ Oxen Foundation trong khi sử dụng cuộc gọi beta."
+            "value" : "Địa chỉ IP của bạn hiển thị với đối tác cuộc gọi và máy chủ  trong khi sử dụng cuộc gọi beta."
           }
         },
         "xh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I-IP yakho iyabonakala komnxibelele wakho nakwiOxen Foundation Server ngelixa usebenzisa i-beta calls."
+            "value" : "I-IP yakho iyabonakala komnxibelele wakho nakwi Server ngelixa usebenzisa i-beta calls."
           }
         },
         "zh-CN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "在使用测试版通话时，您的IP会暴露给您的通话对象和Oxen Foundation服务器。"
+            "value" : "在使用测试版通话时，您的IP会暴露给您的通话对象和服务器。"
           }
         },
         "zh-TW" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "您在使用測試版通話時，您的 IP 將會被通話夥伴和 Oxen Foundation 伺服器看到。"
+            "value" : "您在使用測試版通話時，您的 IP 將會被通話夥伴和 伺服器看到。"
           }
         }
       }
@@ -277434,7 +277434,7 @@
         "uz" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your IP Oxen Foundation server va qo'ng'iroq qilgan odamga ko'rinadi, beta qo'ng'iroqlarni ishlatgan paytda."
+            "value" : "Your IP  server va qo'ng'iroq qilgan odamga ko'rinadi, beta qo'ng'iroqlarni ishlatgan paytda."
           }
         },
         "vi" : {

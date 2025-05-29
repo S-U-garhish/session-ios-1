@@ -67,7 +67,7 @@ class AppearanceViewModel: SessionTableViewModel, NavigatableStateHolder, Observ
         .databaseObservation(self) { db -> State in
             State(
                 theme: db[.theme].defaulting(to: .classicDark),
-                primaryColor: db[.themePrimaryColor].defaulting(to: .green),
+                primaryColor: db[.themePrimaryColor].defaulting(to: .orange),
                 authDarkModeEnabled: db[.themeMatchSystemDayNightCycle]
             )
         }

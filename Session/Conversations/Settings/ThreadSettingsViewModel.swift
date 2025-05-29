@@ -319,7 +319,7 @@ class ThreadSettingsViewModel: SessionTableViewModel, NavigatableStateHolder, Ob
         let standardActionsSection: SectionModel = SectionModel(
             model: .content,
             elements: [
-                (threadViewModel.threadVariant == .legacyGroup || threadViewModel.threadVariant == .group ? nil :
+                /*(threadViewModel.threadVariant == .legacyGroup || threadViewModel.threadVariant == .group ? nil :
                     SessionCell.Info(
                         id: .copyThreadId,
                         leadingAccessory: .icon(
@@ -357,7 +357,7 @@ class ThreadSettingsViewModel: SessionTableViewModel, NavigatableStateHolder, Ob
                             )
                         }
                     )
-                ),
+                ),*/
 
                 SessionCell.Info(
                     id: .allMedia,

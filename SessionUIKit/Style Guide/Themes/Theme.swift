@@ -8,8 +8,6 @@ import SwiftUI
 public enum Theme: String, CaseIterable, Codable {
     case classicDark = "classic_dark"
     case classicLight = "classic_light"
-    case oceanDark = "ocean_dark"
-    case oceanLight = "ocean_light"
     
     // MARK: - Properties
     
@@ -17,29 +15,27 @@ public enum Theme: String, CaseIterable, Codable {
         switch self {
             case .classicDark: return "appearanceThemesClassicDark".localized()
             case .classicLight: return "appearanceThemesClassicLight".localized()
-            case .oceanDark: return "appearanceThemesOceanDark".localized()
-            case .oceanLight: return "appearanceThemesOceanLight".localized()
         }
     }
     
     public var interfaceStyle: UIUserInterfaceStyle {
         switch self {
-            case .classicDark, .oceanDark: return .dark
-            case .classicLight, .oceanLight: return .light
+            case .classicDark: return .dark
+            case .classicLight: return .light
         }
     }
     
     public var statusBarStyle: UIStatusBarStyle {
         switch self {
-            case .classicDark, .oceanDark: return .lightContent
-            case .classicLight, .oceanLight: return .darkContent
+            case .classicDark: return .lightContent
+            case .classicLight: return .darkContent
         }
     }
     
     public var keyboardAppearance: UIKeyboardAppearance {
         switch self {
-            case .classicDark, .oceanDark: return .dark
-            case .classicLight, .oceanLight: return .default
+            case .classicDark: return .dark
+            case .classicLight: return .default
         }
     }
     
@@ -47,8 +43,6 @@ public enum Theme: String, CaseIterable, Codable {
         switch self {
             case .classicDark: return Theme_ClassicDark.theme
             case .classicLight: return Theme_ClassicLight.theme
-            case .oceanDark: return Theme_OceanDark.theme
-            case .oceanLight: return Theme_OceanLight.theme
         }
     }
     
@@ -71,8 +65,6 @@ public enum Theme: String, CaseIterable, Codable {
         switch self {
             case .classicDark: return Theme_ClassicDark.themeSwiftUI
             case .classicLight: return Theme_ClassicLight.themeSwiftUI
-            case .oceanDark: return Theme_OceanDark.themeSwiftUI
-            case .oceanLight: return Theme_OceanLight.themeSwiftUI
         }
     }
     

@@ -34,7 +34,7 @@ public enum MentionUtilities {
             location: .styleFree,
             textColor: .black,
             theme: .classicDark,
-            primaryColor: Theme.PrimaryColor.green,
+            primaryColor: Theme.PrimaryColor.orange,
             attributes: [:],
             using: dependencies
         )

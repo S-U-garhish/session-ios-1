@@ -4,8 +4,8 @@ import UIKit
 import SessionUIKit
 
 class VersionFooterView: UIView {
-    private static let footerHeight: CGFloat = 75
-    private static let logoHeight: CGFloat = 24
+    private static let footerHeight: CGFloat = 51
+    private static let logoHeight: CGFloat = 0
     
     private let multiTapCallback: (() -> Void)?
     
@@ -80,12 +80,13 @@ class VersionFooterView: UIView {
     // MARK: - Content
     
     private func setupViewHierarchy(numTaps: Int) {
-        addSubview(logoImageView)
+        //addSubview(logoImageView)
         addSubview(versionLabel)
         
-        logoImageView.pin(.top, to: .top, of: self, withInset: Values.mediumSpacing)
-        logoImageView.center(.horizontal, in: self, withInset: -2)
-        versionLabel.pin(.top, to: .bottom, of: logoImageView, withInset: Values.mediumSpacing)
+        //logoImageView.pin(.top, to: .top, of: self, withInset: Values.mediumSpacing)
+        //logoImageView.center(.horizontal, in: self, withInset: -2)
+        versionLabel.pin(.top, to: .bottom, of: self, withInset: -1.5 * Values.mediumSpacing)
+        //versionLabel.pin(.top, to: .bottom, of: logoImageView, withInset: Values.mediumSpacing)
         versionLabel.pin(.left, to: .left, of: self)
         versionLabel.pin(.right, to: .right, of: self)
         

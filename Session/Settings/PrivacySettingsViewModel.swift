@@ -298,6 +298,7 @@ class PrivacySettingsViewModel: SessionTableViewModel, NavigationItemSource, Nav
                         )
                     ]
                 ),
+                /*
                 SectionModel(
                     model: .messageRequests,
                     elements: [
@@ -323,7 +324,7 @@ class PrivacySettingsViewModel: SessionTableViewModel, NavigationItemSource, Nav
                             }
                         )
                     ]
-                ),
+                ),*/
                 SectionModel(
                     model: .readReceipts,
                     elements: [

@@ -10,7 +10,7 @@ internal enum Theme_ClassicDark: ThemeColors {
         .black: .black,
         .clear: .clear,
         .primary: .primary,
-        .defaultPrimary: Theme.PrimaryColor.green.color,
+        .defaultPrimary: Theme.PrimaryColor.orange.color,
         .warning: .warningDark,
         .danger: .dangerDark,
         .disabled: .disabledDark,
@@ -106,7 +106,7 @@ internal enum Theme_ClassicDark: ThemeColors {
         .contextMenu_textHighlight: .classicDark0,
         
         // Call
-        .callAccept_background: Theme.PrimaryColor.green.color,
+        .callAccept_background: Theme.PrimaryColor.orange.color,
         .callDecline_background: .dangerDark,
         
         // Reactions
@@ -131,7 +131,7 @@ internal enum Theme_ClassicDark: ThemeColors {
         .black: .black,
         .clear: .clear,
         .primary: .primary,
-        .defaultPrimary: Theme.PrimaryColor.green.colorSwiftUI,
+        .defaultPrimary: Theme.PrimaryColor.orange.colorSwiftUI,
         .warning: .warning,
         .danger: .dangerDark,
         .disabled: .disabledDark,
@@ -227,7 +227,7 @@ internal enum Theme_ClassicDark: ThemeColors {
         .contextMenu_textHighlight: .classicDark0,
         
         // Call
-        .callAccept_background: Theme.PrimaryColor.green.colorSwiftUI,
+        .callAccept_background: Theme.PrimaryColor.orange.colorSwiftUI,
         .callDecline_background: .dangerDark,
         
         // Reactions

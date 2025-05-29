@@ -34,7 +34,7 @@ enum _001_ThemePreferences: Migration {
                 Theme.classicDark
             )
         )
-        let targetPrimaryColor: Theme.PrimaryColor = .green
+        let targetPrimaryColor: Theme.PrimaryColor = .orange
         
         // Save the settings
         try db.execute(sql: """

@@ -40,9 +40,9 @@ open class ScreenLockViewController: UIViewController {
         result.isHidden = true
         
         // Need to match the launch screen so force the styling to be the primary green
-        result.setThemeTitleColorForced(.primary(.green), for: .normal)
-        result.setThemeBackgroundColorForced(.primary(.green), for: .highlighted)
-        result.themeBorderColorForced = .primary(.green)
+        result.setThemeTitleColorForced(.primary(.orange), for: .normal)
+        result.setThemeBackgroundColorForced(.primary(.orange), for: .highlighted)
+        result.themeBorderColorForced = .primary(.orange)
 
         return result
     }()

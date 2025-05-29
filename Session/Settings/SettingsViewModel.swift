@@ -326,6 +326,7 @@ class SettingsViewModel: SessionTableViewModel, NavigationItemSource, Navigatabl
                         )
                     }
                 ),
+                /*
                 SessionCell.Info(
                     id: .inviteAFriend,
                     leadingAccessory: .icon(
@@ -348,7 +349,7 @@ class SettingsViewModel: SessionTableViewModel, NavigationItemSource, Navigatabl
                             transitionType: .present
                         )
                     }
-                ),
+                ),*/
                 (state.hideRecoveryPasswordPermanently ? nil :
                     SessionCell.Info(
                         id: .recoveryPhrase,
@@ -381,6 +382,7 @@ class SettingsViewModel: SessionTableViewModel, NavigationItemSource, Navigatabl
                         }
                     )
                 ),
+                /*
                 SessionCell.Info(
                     id: .help,
                     leadingAccessory: .icon(
@@ -393,7 +395,8 @@ class SettingsViewModel: SessionTableViewModel, NavigationItemSource, Navigatabl
                             SessionTableViewController(viewModel: HelpViewModel(using: dependencies))
                         )
                     }
-                ),
+                ),*/
+                /*
                 (!state.developerModeEnabled ? nil :
                     SessionCell.Info(
                         id: .developerSettings,
@@ -409,7 +412,7 @@ class SettingsViewModel: SessionTableViewModel, NavigationItemSource, Navigatabl
                             )
                         }
                     )
-                ),
+                ),*/
                 SessionCell.Info(
                     id: .clearData,
                     leadingAccessory: .icon(
@@ -433,7 +436,7 @@ class SettingsViewModel: SessionTableViewModel, NavigationItemSource, Navigatabl
         guard !dependencies[singleton: .storage, key: .developerModeEnabled] else { return }
         
         dependencies[singleton: .storage].write { db in
-            db[.developerModeEnabled] = true
+            db[.developerModeEnabled] = false
         }
     }).eraseToAnyPublisher()
     

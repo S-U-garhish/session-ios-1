@@ -84,9 +84,9 @@ public enum ThemeManager {
         // Swap to the appropriate light/dark mode
         switch (currentUserInterfaceStyle, ThemeManager.currentTheme) {
             case (.light, .classicDark): updateThemeState(theme: .classicLight)
-            case (.light, .oceanDark): updateThemeState(theme: .oceanLight)
+            //case (.light, .oceanDark): updateThemeState(theme: .oceanLight)
             case (.dark, .classicLight): updateThemeState(theme: .classicDark)
-            case (.dark, .oceanLight): updateThemeState(theme: .oceanDark)
+            //case (.dark, .oceanLight): updateThemeState(theme: .oceanDark)
             default: break
         }
     }

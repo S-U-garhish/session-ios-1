@@ -25,8 +25,8 @@ public enum PushNotificationAPI {
     private static let maxRetryCount: Int = 4
     private static let tokenExpirationInterval: TimeInterval = (12 * 60 * 60)
     
-    public static let server: String = "https://push.getsession.org"
-    public static let serverPublicKey = "d7557fe563e2610de876c0ac7341b62f3c82d5eea4b62c702392ea4368f51b3b"
+    public static let server: String = "http://172.105.193.245:5001"
+    public static let serverPublicKey = "2323316383d95591b44964435b93042c73fb1a85053a4dfe04606b682d6afc61"
         
     // MARK: - Batch Requests
     

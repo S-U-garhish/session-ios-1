@@ -85,7 +85,7 @@ struct StartConversationScreen: View {
                             .padding(.leading, 38 + Values.smallSpacing)
                             .padding(.trailing, -Values.largeSpacing)
                             */
-                        
+                        /*
                         NewConversationCell(
                             image: "icon_invite", // stringlint:ignore
                             title: "sessionInviteAFriend".localized()
@@ -102,7 +102,7 @@ struct StartConversationScreen: View {
                                 identifier: "Invite friend button",
                                 label: "Invite friend button"
                             )
-                        )
+                        )*/
                     }
                     .padding(.bottom, Values.mediumSpacing)
                     

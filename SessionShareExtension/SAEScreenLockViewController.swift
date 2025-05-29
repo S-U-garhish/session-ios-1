@@ -69,12 +69,12 @@ final class SAEScreenLockViewController: ScreenLockViewController {
                     self?.unlockButton.themeBorderColorForced = .theme(theme, color: .textPrimary)
                     
                 default:
-                    self?.unlockButton.setThemeTitleColorForced(.primary(.green), for: .normal)
+                    self?.unlockButton.setThemeTitleColorForced(.primary(.orange), for: .normal)
                     self?.unlockButton.setThemeBackgroundColorForced(
-                        .primary(.green, alpha: 0.3),
+                        .primary(.orange, alpha: 0.3),
                         for: .highlighted
                     )
-                    self?.unlockButton.themeBorderColorForced = .primary(.green)
+                    self?.unlockButton.themeBorderColorForced = .primary(.orange)
             }
         }
     }
