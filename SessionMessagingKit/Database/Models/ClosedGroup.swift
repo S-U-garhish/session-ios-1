@@ -243,7 +243,7 @@ public extension ClosedGroup {
                     sessionIds: [SessionId(.group, hex: group.id)],
                     using: dependencies
                 )
-                .send(using: dependencies)
+                .receive(on: DispatchQueue.main)
                 .subscribe(on: DispatchQueue.global(qos: .userInitiated), using: dependencies)
                 .sinkUntilComplete()
         }
@@ -316,7 +316,7 @@ public extension ClosedGroup {
                                 .map { SessionId(.group, hex: $0.id) },
                             using: dependencies
                         )
-                        .send(using: dependencies)
+                        .receive(on: DispatchQueue.main)
                         .sinkUntilComplete()
                 }
             }
@@ -581,6 +581,26 @@ public extension ClosedGroup {
             
             return String(data: messageInfoData, encoding: .utf8)
         }
+    }
+    /// 指定されたSessionIdのプレフィックスに合致するClosedGroupのthreadIdを抽出します。
+    ///
+    /// - Parameters:
+    ///   - db: GRDBのDatabaseインスタンス。
+    ///   - sessionIdPrefix: フィルタリングに使用するSessionId.Prefix。
+    /// - Returns: フィルタリングされたClosedGroupのthreadIdのSet。
+    /// - Throws: データベース操作中にエラーが発生した場合。
+    static func fetchThreadIdsBySessionIdPrefix(
+        _ db: Database,
+        sessionIdPrefix: SessionId.Prefix
+    ) throws -> Set<String> {
+        return try ClosedGroup
+            .select(.threadId) // threadIdを選択
+            .filter(
+                ClosedGroup.Columns.threadId > sessionIdPrefix.rawValue &&
+                ClosedGroup.Columns.threadId < sessionIdPrefix.endOfRangeString
+            )
+            .asRequest(of: String.self)
+            .fetchSet(db)
     }
 }
 

@@ -972,6 +972,7 @@ class DeveloperSettingsViewModel: SessionTableViewModel, NavigatableStateHolder,
         if let existingToken: String = dependencies[singleton: .storage, key: .lastRecordedPushToken] {
             PushNotificationAPI
                 .unsubscribeAll(token: Data(hex: existingToken), using: dependencies)
+                .receive(on: DispatchQueue.main)
                 .sinkUntilComplete()
         }
         

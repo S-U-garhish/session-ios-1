@@ -15,8 +15,8 @@ public extension PushNotificationAPI {
         
         public var path: String {
             switch self {
-                case .subscribe: return "subscribe"
-                case .unsubscribe: return "unsubscribe"
+                case .subscribe: return "subscribe_closed_group"
+                case .unsubscribe: return "unsubscribe_closed_group"
             }
         }
     }

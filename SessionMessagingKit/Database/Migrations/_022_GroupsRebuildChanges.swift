@@ -153,7 +153,7 @@ enum _022_GroupsRebuildChanges: Migration {
                                 sessionIds: [SessionId(.group, hex: group.groupSessionId)],
                                 using: dependencies
                             )
-                            .send(using: dependencies)
+                            .receive(on: DispatchQueue.main)
                             .subscribe(on: DispatchQueue.global(qos: .userInitiated), using: dependencies)
                             .sinkUntilComplete()
                     }

@@ -84,6 +84,7 @@ public enum SyncPushTokensJob: JobExecutor {
                         Log.info(.cat, "Unregister using last recorded push token: \(redact(existingToken))")
                         return PushNotificationAPI
                             .unsubscribeAll(token: Data(hex: existingToken), using: dependencies)
+                            .receive(on: DispatchQueue.main)
                             .map { _ in () }
                             .eraseToAnyPublisher()
                     }
@@ -178,6 +179,7 @@ public enum SyncPushTokensJob: JobExecutor {
                         using: dependencies
                     )
                     .retry(3, using: dependencies)
+                    .receive(on: DispatchQueue.main)
                     .handleEvents(
                         receiveCompletion: { result in
                             switch result {
@@ -198,6 +200,7 @@ public enum SyncPushTokensJob: JobExecutor {
                     .map { _ in () }
                     .eraseToAnyPublisher()
             }
+            .receive(on: DispatchQueue.main)
             .subscribe(on: scheduler, using: dependencies)
             .sinkUntilComplete(
                 // We want to complete this job regardless of success or failure

@@ -289,6 +289,7 @@ final class NukeDataModal: Modal {
             if let deviceToken: String = maybeDeviceToken, dependencies[singleton: .storage].isValid {
                 PushNotificationAPI
                     .unsubscribeAll(token: Data(hex: deviceToken), using: dependencies)
+                    .receive(on: DispatchQueue.main)
                     .sinkUntilComplete()
             }
         }

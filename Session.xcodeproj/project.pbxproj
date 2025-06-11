@@ -5219,7 +5219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "ZILLAF" */;
+			buildConfigurationList = D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "Session" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -10018,7 +10018,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = App_Store_Release;
 		};
-		D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "ZILLAF" */ = {
+		D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "Session" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D221A0BA169C9E5F00537ABF /* Debug */,

@@ -13,7 +13,7 @@ extension MessageSender {
         thread: SessionThread,
         group: ClosedGroup,
         members: [GroupMember],
-        preparedNotificationsSubscription: Network.PreparedRequest<PushNotificationAPI.SubscribeResponse>?
+        preparedNotificationsSubscription: AnyPublisher<PushNotificationAPI.SubscribeResponse, Error>?
     )
     
     public static func createGroup(
@@ -120,7 +120,7 @@ extension MessageSender {
                     )
                     
                     // Prepare the notification subscription
-                    var preparedNotificationSubscription: Network.PreparedRequest<PushNotificationAPI.SubscribeResponse>?
+                    var preparedNotificationSubscription: AnyPublisher<PushNotificationAPI.SubscribeResponse, Error>?
                     
                     if let token: String = dependencies[defaults: .standard, key: .deviceToken] {
                         preparedNotificationSubscription = try? PushNotificationAPI
@@ -198,7 +198,7 @@ extension MessageSender {
                     
                     // Subscribe for push notifications (if PNs are enabled)
                     preparedNotificationSubscription?
-                        .send(using: dependencies)
+                        .receive(on: DispatchQueue.main)
                         .subscribe(on: DispatchQueue.global(qos: .userInitiated), using: dependencies)
                         .sinkUntilComplete()
                     

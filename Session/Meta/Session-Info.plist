@@ -63,6 +63,15 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
+			<key>172.105.193.245</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
 			<key>seed1.getsession.org</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>

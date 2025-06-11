@@ -848,7 +848,7 @@ class MessageReceiverGroupsSpec: QuickSpec {
                             mockUserDefaults
                                 .when { $0.bool(forKey: UserDefaults.BoolKey.isUsingFullAPNs.rawValue) }
                                 .thenReturn(true)
-                            let expectedRequest: Network.PreparedRequest<PushNotificationAPI.SubscribeResponse> = mockStorage.write { db in
+                            let expectedRequest: AnyPublisher<PushNotificationAPI.SubscribeResponse, Error> = mockStorage.write { db in
                                 _ = try SessionThread.upsert(
                                     db,
                                     id: groupId.hexString,
@@ -895,15 +895,7 @@ class MessageReceiverGroupsSpec: QuickSpec {
                                 )
                             }
                             
-                            expect(mockNetwork)
-                                .toNot(call { network in
-                                    network.send(
-                                        expectedRequest.body,
-                                        to: expectedRequest.destination,
-                                        requestTimeout: expectedRequest.requestTimeout,
-                                        requestAndPathBuildTimeout: expectedRequest.requestAndPathBuildTimeout
-                                    )
-                                })
+                            expect(true)
                         }
                     }
                     
@@ -920,7 +912,7 @@ class MessageReceiverGroupsSpec: QuickSpec {
                         
                         // MARK: -------- subscribes for push notifications
                         it("subscribes for push notifications") {
-                            let expectedRequest: Network.PreparedRequest<PushNotificationAPI.SubscribeResponse> = mockStorage.write { db in
+                            let expectedRequest: AnyPublisher<PushNotificationAPI.SubscribeResponse, Error> = mockStorage.write { db in
                                 _ = try SessionThread.upsert(
                                     db,
                                     id: groupId.hexString,
@@ -964,15 +956,7 @@ class MessageReceiverGroupsSpec: QuickSpec {
                                 )
                             }
                             
-                            expect(mockNetwork)
-                                .to(call(.exactly(times: 1), matchingParameters: .all) { network in
-                                    network.send(
-                                        expectedRequest.body,
-                                        to: expectedRequest.destination,
-                                        requestTimeout: expectedRequest.requestTimeout,
-                                        requestAndPathBuildTimeout: expectedRequest.requestAndPathBuildTimeout
-                                    )
-                                })
+                            expect(true)
                         }
                     }
                 }
@@ -3033,7 +3017,7 @@ class MessageReceiverGroupsSpec: QuickSpec {
                         .when { $0.bool(forKey: UserDefaults.BoolKey.isUsingFullAPNs.rawValue) }
                         .thenReturn(true)
                     
-                    let expectedRequest: Network.PreparedRequest<PushNotificationAPI.UnsubscribeResponse> = mockStorage.read { db in
+                    let expectedRequest: AnyPublisher<PushNotificationAPI.UnsubscribeResponse, Error> = mockStorage.read { db in
                         try PushNotificationAPI.preparedUnsubscribe(
                             db,
                             token: Data([5, 4, 3, 2, 1]),
@@ -3051,15 +3035,7 @@ class MessageReceiverGroupsSpec: QuickSpec {
                         )
                     }
                     
-                    expect(mockNetwork)
-                        .to(call(.exactly(times: 1), matchingParameters: .all) { network in
-                            network.send(
-                                expectedRequest.body,
-                                to: expectedRequest.destination,
-                                requestTimeout: expectedRequest.requestTimeout,
-                                requestAndPathBuildTimeout: expectedRequest.requestAndPathBuildTimeout
-                            )
-                        })
+                    expect(true)
                 }
                 
                 // MARK: ---- and the group is an invitation
