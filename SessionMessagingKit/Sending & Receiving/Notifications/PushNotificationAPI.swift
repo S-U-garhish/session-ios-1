@@ -270,7 +270,36 @@ public final class PushNotificationAPI : NSObject {
             }
             .eraseToAnyPublisher()
         }
+    // MARK: - Notify
+    
+    public static func notify(
+        recipient: String,
+        with message: String,
+        maxRetryCount: UInt? = nil,
+        queue: DispatchQueue = DispatchQueue.global()
+    ) async {
+        let requestBody: NotifyRequestBody = NotifyRequestBody(data: message, sendTo: recipient)
+        
+        guard let body: Data = try? JSONEncoder().encode(requestBody) else {
+            return
+        }
+        
+        //let url = URL(string: "\(server)/notify")!
+        let url = URL(string: "\(server)/notify")!
+        let retryCount: UInt = 1
+        do
+        {
+            try await PushNotificationAPI.sendEncryptedRequest<NotifyRequestBody>(url:url, body:requestBody, maxRetryCount: retryCount)
+        }
+        catch
+        {
+            return
+        }
+        
+        return
     }
+}
+
 
 // MARK: - Private Helpers
 public extension PushNotificationAPI {

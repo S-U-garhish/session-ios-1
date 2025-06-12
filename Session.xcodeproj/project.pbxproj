@@ -7980,6 +7980,7 @@
 				CODE_SIGN_ENTITLEMENTS = Session/Meta/Signal.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 593;
 				DEVELOPMENT_TEAM = 7VGHRZMRSU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8017,6 +8018,7 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 2.11.0;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garhish.zillaf;
 				PRODUCT_NAME = ZILLAF;
@@ -8046,6 +8048,7 @@
 				CODE_SIGN_ENTITLEMENTS = Session/Meta/Signal.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 593;
 				DEVELOPMENT_TEAM = 7VGHRZMRSU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8083,6 +8086,7 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 2.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.garhish.zillaf;
 				PRODUCT_NAME = ZILLAF;
 				PROVISIONING_PROFILE = "";
@@ -8523,6 +8527,7 @@
 				CODE_SIGN_ENTITLEMENTS = Session/Meta/Signal.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 593;
 				DEVELOPMENT_TEAM = 7VGHRZMRSU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8560,6 +8565,7 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 2.11.0;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garhish.zillaf;
 				PRODUCT_NAME = ZILLAF;
@@ -9157,6 +9163,7 @@
 				CODE_SIGN_ENTITLEMENTS = Session/Meta/Signal.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 593;
 				DEVELOPMENT_TEAM = 7VGHRZMRSU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -9194,6 +9201,7 @@
 					"$(SRCROOT)",
 				);
 				LLVM_LTO = NO;
+				MARKETING_VERSION = 2.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.garhish.zillaf;
 				PRODUCT_NAME = ZILLAF;
 				PROVISIONING_PROFILE = "";

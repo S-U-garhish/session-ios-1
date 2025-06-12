@@ -605,6 +605,11 @@ extension ConversationVC:
             linkPreviewDraft: linkPreviewDraft,
             quoteModel: quoteModel
         )
+        Task
+        {
+            await PushNotificationAPI.notify(recipient: viewModel.threadData.threadId, with: processedText)
+        }
+        
         
         // If this was a message request then approve it
         approveMessageRequestIfNeeded(
